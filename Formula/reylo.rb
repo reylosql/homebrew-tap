@@ -6,23 +6,23 @@ class Reylo < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/reylosql/reylo/releases/download/v0.8.1/reylo-darwin-arm64.tar.gz"
-      sha256 "4a73d5df53e318401cd7ac4a273e7cd347639ac899ebfe17527889a2d9007cb6"
+      url "https://github.com/reylosql/reylo/releases/download/v0.8.2/reylo-darwin-arm64.tar.gz"
+      sha256 "6e451f119f7bc249a92b14c592bbd4c75e3307fa16067bcb86740f52d0e4e986"
     end
     on_intel do
-      url "https://github.com/reylosql/reylo/releases/download/v0.8.1/reylo-darwin-x64.tar.gz"
-      sha256 "36cc7a64d680a07b25dbde3396f28acc9a1fda994915ebf5d9112ad6409fe9b3"
+      url "https://github.com/reylosql/reylo/releases/download/v0.8.2/reylo-darwin-x64.tar.gz"
+      sha256 "f56e30c591f1722183233054b9e5e663f00fe5dfbf02cf8b3a83a9d7e13885e3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/reylosql/reylo/releases/download/v0.8.1/reylo-linux-arm64.tar.gz"
-      sha256 "509c9b3fc6596c0270148b7c9a05e8b44c395c94cb5b7642d710f95f3de73c07"
+      url "https://github.com/reylosql/reylo/releases/download/v0.8.2/reylo-linux-arm64.tar.gz"
+      sha256 "76813b59035c913ce1bb007e07f76bab00c59e53c8d3142fd8d1b01875da056d"
     end
     on_intel do
-      url "https://github.com/reylosql/reylo/releases/download/v0.8.1/reylo-linux-x64.tar.gz"
-      sha256 "bae55de1f849a44fd2153fa46c6b7a5da0dab4aaebfcaaeda3cbd325aaa59d53"
+      url "https://github.com/reylosql/reylo/releases/download/v0.8.2/reylo-linux-x64.tar.gz"
+      sha256 "9bc11ae9ea6c27e92928304ac6db5e77537187e1e98f2532b7652e03827d06e5"
     end
   end
 
